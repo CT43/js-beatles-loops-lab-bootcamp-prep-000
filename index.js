@@ -13,7 +13,7 @@ function johnLennonFacts(facts){{
   var exclamation = []
   let i= 0 
   while (i < exclamation.length ) {
-    exclamation.push(facts[i] + '!!!')}
+    exclamation.push(`${facts[i]}!!!`)}
   i++
 }
 return exclamation}
