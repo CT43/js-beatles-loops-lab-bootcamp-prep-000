@@ -3,5 +3,5 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 
 function theBeatlesPlay(musicians,instruments) {
   var music = []
-  for (let i = 0;)
+  for (let i = 0; i <3; )
 }
