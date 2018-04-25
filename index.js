@@ -14,4 +14,4 @@ function johnLennonFacts(facts){
   let i= 0 
   while (i < exclamation.length ) { facts[i] + '!!!'}
   i++
-}
+return exclamation}
