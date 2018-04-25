@@ -9,11 +9,14 @@ function theBeatlesPlay(musicians,instruments) {
   return music
 }
 
-function johnLennonFacts(facts){{
-  var exclamation = []
-  let i= 0 
-  while (i < exclamation.length ) {
-    exclamation.push(`${facts[i]}!!!`)}
-  i++
+function johnLennonFacts(facts) {
+  const shoutedFacts = []
+
+  let i = 0
+  while (i < facts.length) {
+    shoutedFacts.push(`${facts[i]}!!!`)
+    i++
+  }
+
+  return shoutedFacts
 }
-return exclamation}
